@@ -52,7 +52,7 @@ sofa.define('sofa.WishlistService', function (storageService) {
      * @return {object} The added wishlist item.
      */
     self.addItem = function (product, quantity, variant) {
-        var key = product.sku + '/'  + (variant ? variant.variantID : ''),
+        var key = product.urlKey  + (variant ? '/' + variant.variantID : ''),
             wishlist = self.getItems();
 
         if (wishlist[key]) {
