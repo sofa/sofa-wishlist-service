@@ -6,7 +6,8 @@
     "Pascal Precht <pascal@couchcommerce.com>"
   ],
   "dependencies": {
-    "sofa-core": "~0.6.1"
+    "sofa-core": "~0.6.1",
+    "sofa-storages": "~0.2.x"
   },
   "description": "Sofa Web SDK wishlist component.",
   "main": "dist/sofa.wishlistService.js",

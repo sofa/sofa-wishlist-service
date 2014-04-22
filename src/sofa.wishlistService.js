@@ -1,13 +1,3 @@
-/**
- * sofa-wishlist-service - v0.1.0 - 2014-04-22
- * http://www.sofa.io
- *
- * Copyright (c) 2013 CouchCommerce GmbH (http://www.couchcommerce.org) and other contributors
- * THIS SOFTWARE CONTAINS COMPONENTS OF THE SOFA SDK (SOFA.IO).
- * IT IS PROVIDED UNDER THE LICENSE TERMS OF THE ATTACHED LICENSE.TXT.
- */
-;(function (sofa, undefined) {
-
 'use strict';
 /* global sofa */
 /**
@@ -150,5 +140,3 @@ sofa.define('sofa.WishlistService', function (storageService) {
 
     return self;
 });
-
-}(sofa));

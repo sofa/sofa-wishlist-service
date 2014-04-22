@@ -10,6 +10,7 @@ module.exports = function (karma) {
          */
         files: [
             'node_modules/sofa-core/dist/sofa.core.js',
+            'node_modules/sofa-storages/dist/sofa.storages.js',
             'src/**/*.js',
             'test/**/*.spec.js'
         ],

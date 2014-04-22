@@ -1,12 +1,12 @@
 'use strict';
 /* global sofa */
 
-describe('sofa.componentName', function () {
+describe('sofa.wishlistService', function () {
 
     var componentName;
 
     beforeEach(function () {
-        componentName = new sofa.ComponentName();
+        componentName = new sofa.WishlistService();
     });
 
     it('should be defined', function () {
