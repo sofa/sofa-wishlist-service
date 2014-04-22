@@ -1,5 +1,5 @@
 /**
- * sofa-wishlist-service - v0.1.2 - 2014-04-22
+ * sofa-wishlist-service - v0.2.0 - 2014-04-22
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
@@ -62,7 +62,7 @@ sofa.define('sofa.WishlistService', function (storageService) {
      * @return {object} The added wishlist item.
      */
     self.addItem = function (product, quantity, variant) {
-        var key = product.sku + '/'  + (variant ? variant.variantID : ''),
+        var key = product.urlKey  + (variant ? '/' + variant.variantID : ''),
             wishlist = self.getItems();
 
         if (wishlist[key]) {
@@ -129,6 +129,25 @@ sofa.define('sofa.WishlistService', function (storageService) {
      */
     self.isEmpty = function () {
         return self.getItemCount() === 0;
+    };
+
+    /**
+     * @method exists
+     * @memberof sofa.WishlistService
+     *
+     * @description
+     * Returns true if the item exists in the wishlist or false otherwise.
+     *
+     * @example
+     * wishlistService.exists('some-product');
+     *
+     * @param {string} the productUrlKey (optionally with /variantId) to be checked for existance
+     *
+     * @return {Boolean} exists state
+     */
+    self.exists = function (productUrlKey) {
+        var wishlist = self.getItems();
+        return !sofa.Util.isUndefined(wishlist[productUrlKey]);
     };
 
     //http://mutablethought.com/2013/04/25/angular-js-ng-repeat-no-longer-allowing-duplicates/
