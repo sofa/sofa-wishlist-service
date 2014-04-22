@@ -9,6 +9,9 @@
     "sofa-core": "~0.6.1",
     "sofa-storages": "~0.2.x"
   },
+  "resolutions": {
+    "sofa-core": "0.6.x"
+  },
   "description": "Sofa Web SDK wishlist component.",
   "main": "dist/sofa.wishlistService.js",
   "keywords": [
