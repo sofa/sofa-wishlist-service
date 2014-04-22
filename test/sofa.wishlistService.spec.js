@@ -6,7 +6,7 @@ describe('sofa.wishlistService', function () {
     var componentName;
 
     beforeEach(function () {
-        componentName = new sofa.WishlistService();
+        componentName = new sofa.WishlistService(new sofa.MemoryStorageService());
     });
 
     it('should be defined', function () {
@@ -14,10 +14,13 @@ describe('sofa.wishlistService', function () {
     });
 
 
-    describe('when adding an item to the wishlist', function(){
-        it('should report existance of the item', function(){
-            var product = { id: 5 };
-            
+    describe('when adding an item to the wishlist', function () {
+        it('should report existance of the item', function () {
+            var product = { urlKey: 'some-product' };
+
+            expect(componentName.exists(product.urlKey)).toBeFalsy();
+            componentName.addItem(product);
+            expect(componentName.exists(product.urlKey)).toBeTruthy();
         });
-    })
+    });
 });

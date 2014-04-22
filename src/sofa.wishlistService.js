@@ -121,6 +121,25 @@ sofa.define('sofa.WishlistService', function (storageService) {
         return self.getItemCount() === 0;
     };
 
+    /**
+     * @method exists
+     * @memberof sofa.WishlistService
+     *
+     * @description
+     * Returns true if the item exists in the wishlist or false otherwise.
+     *
+     * @example
+     * wishlistService.exists('some-product');
+     *
+     * @param {string} the productUrlKey (optionally with /variantId) to be checked for existance
+     *
+     * @return {Boolean} exists state
+     */
+    self.exists = function (productUrlKey) {
+        var wishlist = self.getItems();
+        return !sofa.Util.isUndefined(wishlist[productUrlKey]);
+    };
+
     //http://mutablethought.com/2013/04/25/angular-js-ng-repeat-no-longer-allowing-duplicates/
     var sanitizeSavedData = function (wishlist) {
         if (!wishlist) {
