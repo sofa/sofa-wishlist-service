@@ -1,4 +1,20 @@
 <a name="0.2.0"></a>
+## 0.2.0 (2014-06-24)
+
+
+#### Bug Fixes
+
+* **gitignore:** ignore bower_components ([09891cee](https://github.com/sofa/sofa-wishlist-service/commit/09891ceebc29a921ee203e95d26951ca39d7be58))
+* **wishlistService:** use urlKey as key ([a5ef17c9](https://github.com/sofa/sofa-wishlist-service/commit/a5ef17c9adc3c3a1e5f48d8a52fc48b1daed016e))
+
+
+#### Features
+
+* **grunt:** better deploying ([10a80423](https://github.com/sofa/sofa-wishlist-service/commit/10a804238befff7e9c18f995332e72d43d93bdcd))
+* **wishlistService:** added exists() method ([f04e2538](https://github.com/sofa/sofa-wishlist-service/commit/f04e2538c3b29cd656d2cc4d1aba5b3aacfa26d9))
+
+
+<a name="0.2.0"></a>
 ## 0.2.0 (2014-04-22)
 
 

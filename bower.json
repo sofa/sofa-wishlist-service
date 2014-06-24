@@ -1,25 +1,25 @@
 {
-  "name": "sofa-wishlist-service",
-  "version": "0.2.0",
-  "homepage": "http://www.sofa.io",
-  "authors": [
-    "Pascal Precht <pascal@couchcommerce.com>"
-  ],
-  "dependencies": {
-    "sofa-core": "~0.6.1",
-    "sofa-storages": "~0.2.x"
-  },
-  "resolutions": {
-    "sofa-core": "0.6.x"
-  },
-  "description": "Sofa Web SDK wishlist component.",
-  "main": "dist/sofa.wishlistService.js",
-  "keywords": [
-    "sofa",
-    "sofa.io",
-    "web",
-    "sdk",
-    "core"
-  ],
-  "license": "GPL"
+    "name": "sofa-wishlist-service",
+    "version": "0.2.0",
+    "homepage": "http://www.sofa.io",
+    "authors": [
+        "Pascal Precht <pascal@couchcommerce.com>"
+    ],
+    "dependencies": {
+        "sofa-core": "~0.6.1",
+        "sofa-storages": "~0.2.x"
+    },
+    "resolutions": {
+        "sofa-core": "0.6.x"
+    },
+    "description": "Sofa Web SDK wishlist component.",
+    "main": "dist/sofa.wishlistService.js",
+    "keywords": [
+        "sofa",
+        "sofa.io",
+        "web",
+        "sdk",
+        "core"
+    ],
+    "license": "GPL"
 }
