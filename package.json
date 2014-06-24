@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "sofa-core": "~0.6.1",
-    "sofa-storages": "~0.2.3"
+    "sofa-storages": "~0.2.3",
+    "grunt-deploy-semver": "^0.3.0"
   }
 }
