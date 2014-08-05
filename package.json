@@ -1,6 +1,6 @@
 {
     "name": "sofa-wishlist-service",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Sofa Web SDK wishlist component.",
     "main": "dist/sofa.wishlistService.js",
     "homepage": "http://www.sofa.io",

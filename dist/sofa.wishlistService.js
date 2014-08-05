@@ -1,5 +1,5 @@
 /**
- * sofa-wishlist-service - v0.2.1 - 2014-06-25
+ * sofa-wishlist-service - v0.3.0 - 2014-08-05
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors
@@ -11,9 +11,14 @@
 'use strict';
 /* global sofa */
 /**
- * @name WishlistService
- * @class
- * @namespace sofa.WishlistService
+ * @sofadoc class
+ * @name sofa.WishlistService
+ * @package sofa-wishlist-service
+ *
+ * @requiresPackage sofa-core
+ * @requiresPackage sofa-storages
+ *
+ * @distFile dist/sofa.WishlistService.js
  *
  * @description
  * `sofa.WishlistService` is the interface to interact with a wishlist. It provides
@@ -30,8 +35,9 @@ sofa.define('sofa.WishlistService', function (storageService) {
     sofa.observable.mixin(self);
 
     /**
-     * @method getItems
-     * @memberof sofa.BasketService
+     * @sofadoc method
+     * @name sofa.WishlistService#getItems
+     * @memberof sofa.WishlistService
      *
      * @description
      * Returns an object with key value pairs of the items
@@ -46,7 +52,8 @@ sofa.define('sofa.WishlistService', function (storageService) {
     };
 
     /**
-     * @method addItem
+     * @sofadoc method
+     * @name sofa.WishlistService#addItem
      * @memberof sofa.WishlistService
      *
      * @description
@@ -81,7 +88,8 @@ sofa.define('sofa.WishlistService', function (storageService) {
     };
 
     /**
-     * @method removeItem
+     * @sofadoc method
+     * @name sofa.WishlistService#removeItem
      * @memberof sofa.WishlistService
      *
      * @description
@@ -100,7 +108,8 @@ sofa.define('sofa.WishlistService', function (storageService) {
     };
 
     /**
-     * @method getItemCount
+     * @sofadoc method
+     * @name sofa.WishlistService#getItemCount
      * @memberof sofa.WishlistService
      *
      * @description
@@ -116,7 +125,8 @@ sofa.define('sofa.WishlistService', function (storageService) {
     };
 
     /**
-     * @method isEmpty
+     * @sofadoc method
+     * @name sofa.WishlistService#isEmpty
      * @memberof sofa.WishlistService
      *
      * @description
@@ -132,7 +142,8 @@ sofa.define('sofa.WishlistService', function (storageService) {
     };
 
     /**
-     * @method exists
+     * @sofadoc method
+     * @name sofa.WishlistService#exists
      * @memberof sofa.WishlistService
      *
      * @description
