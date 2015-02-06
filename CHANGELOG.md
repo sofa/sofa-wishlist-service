@@ -1,3 +1,11 @@
+## 0.3.0 (2015-02-06)
+
+
+#### Features
+
+* **sofa.wishlistService:** introduces new build tasks and Angular service ([0601383f](https://github.com/sofa/sofa-wishlist-service/commit/0601383f77dc856343ef5662d2ef5532ec1a9a18))
+
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2014-08-05)
 
