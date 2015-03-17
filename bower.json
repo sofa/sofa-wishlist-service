@@ -13,7 +13,7 @@
         "sofa-core": "0.6.x"
     },
     "description": "Sofa Web SDK wishlist component.",
-    "main": "dist/sofa.wishlistService.js",
+    "main": "dist/sofaWishlistService.js",
     "keywords": [
         "sofa",
         "sofa.io",
