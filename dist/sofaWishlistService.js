@@ -1,5 +1,5 @@
 /**
- * sofa-wishlist-service - v0.3.0 - Fri Feb 06 2015 16:38:03 GMT+0100 (CET)
+ * sofa-wishlist-service - v0.4.0 - Wed Mar 25 2015 14:42:36 GMT+0100 (CET)
  * http://www.sofa.io
  *
  * Copyright (c) 2014 CouchCommerce GmbH (http://www.couchcommerce.com / http://www.sofa.io) and other contributors

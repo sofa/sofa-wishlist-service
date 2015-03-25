@@ -1,3 +1,11 @@
+## 0.4.0 (2015-03-25)
+
+
+#### Bug Fixes
+
+* **bower.json:** fixes naming ([cec8b32c](https://github.com/sofa/sofa-wishlist-service/commit/cec8b32c6fbde1b0892d822584200caafcdd121f), closes [#2](https://github.com/sofa/sofa-wishlist-service/issues/2))
+
+
 ## 0.3.0 (2015-02-06)
 
 
